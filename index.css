@@ -32,7 +32,9 @@ blockquote {
     padding: 30px;
 }
 
+/* 
 @import "http://fonts.googleapis.com/css?family=Source+Sans+Pro";
+ */
 #mainnav, #mainnav ul, #mainnav ul li, #mainnav ul li a, #mainnav #menu-button {
     border: 0 none;
     box-sizing: border-box;

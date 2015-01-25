@@ -1,12 +1,13 @@
 <?php
-	
-	if ($_SESSION["onlyOne"] == "survey") {
+	session_start();
+	if ($_SESSION["onlyOne"] == "survey")
+	{
 	header("Location: http://php-afane.rhcloud.com/survey/survey1.php");
 	exit;
 	}
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
    <link rel="stylesheet" type="text/css" href="../index.css" />

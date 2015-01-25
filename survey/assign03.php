@@ -1,7 +1,7 @@
 <?php
 	
 	if ($_SESSION["onlyOne"] == "survey") {
-	header("location: http://php-afane.rhcloud.com/survey/survey1.php");
+	header("Location: http://php-afane.rhcloud.com/survey/survey1.php");
 	exit;
 	}
 ?>

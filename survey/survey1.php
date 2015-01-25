@@ -40,13 +40,7 @@
   <div>
        <br>
         <?php 
-        
-       //  //Testin to read a file and add a <td> to the table, adding values instead. PASSED
-//         $readFile = "data.txt";
-//        	$document = file_get_contents($readFile);
-//        	print("$document");
-//         
-        
+       
         //Example array.
 	//Retrieve the data from our text file.
 	$fileContents = file_get_contents('json_array.txt');

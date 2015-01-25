@@ -3,7 +3,7 @@
 	$_SESSION["onlyOne"] = "survey";
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
    <link rel="stylesheet" type="text/css" href="../index.css" />

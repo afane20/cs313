@@ -9,35 +9,6 @@
    <link rel="stylesheet" type="text/css" href="../index.css" />
    <meta charset="UTF-8">
    <title>Ernesto Afane's Home Page</title>
-   
-   <script>
-   var _chart2_plot_properties;
-$(document).ready(function(){ 
-setTimeout( function() { 
-_chart2_plot_properties = {
-  "axes":{
-    "xaxis":{
-      "ticks":[
-        "a","b","c","d"
-      ],"renderer":$.jqplot.CategoryAxisRenderer,"properties":"xaxis"
-    }
-  },"animate":true,"animateReplot":true,"seriesDefaults":{
-    "renderer":$.jqplot.BarRenderer,"pointLabels":{
-      "show":true
-    }
-  }
-}
-
-
-
-$.jqplot.config.enablePlugins = true;
-$.jqplot.config.defaultHeight = 300;
-$.jqplot.config.defaultWidth  = 400;
- _chart2= $.jqplot("chart2", [[2,6,7,10],[7,5,3,2]], _chart2_plot_properties);
-
-}, 200 );
-});
-   </script>
 </head>
 
 <body>

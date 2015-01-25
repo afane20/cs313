@@ -1,6 +1,6 @@
 <?php
-	header("location: ")
->
+	header("location: http://php-afane.rhcloud.com/survey/survey1.php")
+?>
 
 <!doctype html>
 <html>

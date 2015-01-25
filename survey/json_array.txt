@@ -1,0 +1,1 @@
+["Apple","League of Legends","Ercanbrack","Chinese",6,4,3,6,5,0,3,6,0,8,6,0,3,5]

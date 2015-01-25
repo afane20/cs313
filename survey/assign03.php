@@ -1,8 +1,9 @@
 <?php
 	
-	if ($_SESSION["onlyOne"] == "survey")
+	if ($_SESSION["onlyOne"] == "survey") {
 	header("location: http://php-afane.rhcloud.com/survey/survey1.php");
 	exit;
+	}
 ?>
 
 <!doctype html>

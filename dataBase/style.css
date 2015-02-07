@@ -1,0 +1,22 @@
+h1 {
+	color: #223454;
+	font-family: sans-serif;
+	padding-left: 1px;
+}
+
+input {
+	background: #223454;
+	border: none;
+	padding: 5px;
+	color: #fff;
+	float: right;
+}
+
+input:-moz-placeholder {
+	color: #fff;
+}
+
+#submit {
+	background: #2d2d2d;
+	color: #fff;
+}

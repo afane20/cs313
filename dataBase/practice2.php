@@ -46,7 +46,7 @@ $conn = databaseConnection();
         $sql = 'SELECT * FROM products WHERE name = :name';
         
         $stmt = $conn->prepare($sql);
-        $stmt->bindValue(':name', $searchVariable, PDO::PARAM_STR);
+        $stmt->bindValue(':name', '%'. $searchVariable . '%', PDO::PARAM_STR);
         $stmt->execute();
         $data = $stmt->fetchAll();
         $stmt->closeCursor();

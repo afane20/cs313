@@ -8,9 +8,7 @@
 
 <body>
     <div id="login">
-    	<p id="loginS">
-    	<a href="setUser.php#">Login </a>   |   <a href="setUser.php#">Sign up</a></p>
-    
+    	<p><a href="setUser.php#">Login </a>   |   <a href="setUser.php#">Sign up</a></p>
     </div>
 
 <div id="wrapper">

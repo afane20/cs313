@@ -15,9 +15,9 @@ h1 {
 }
 
 body {
-	margin: 0px;
-	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif;
-	background-color: #E4F1F8;
+margin:0px; 
+font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif;
+background-color: #EFF5F8;
 
 }
 
@@ -198,8 +198,16 @@ min-width:700px;
 }
 
 #login {
-	background-color: #000000;
-	color: white;
+	background-color: #768481;
+	color: #FFFFFF;
+	height: 40px;
 	text-align: right;
-	height: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+#loginS {
+	padding: 10px;
 }

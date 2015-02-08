@@ -37,8 +37,9 @@
       <br />
         <form action="index1.php" method="POST" accept-charset="utf-8">
 		  <input type="submit" id="submit" name="action" value="Search">
-			  <input type="text" name="search" placeholder="Book Name" value="<?php echo $searchName;?>"/>
+			  <input type="text" name="search" placeholder="Products" value="<?php echo $searchName;?>"/>
 		</form>
+		<p>If the search is empty all the items in the database shall be displayed!. The Items are displayed according to name, price and how many items are store in the database</p> 
     </header>
     <br />
     <br />

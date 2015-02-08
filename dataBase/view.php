@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
   <title>Hello world</title>
   <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 
 <body>
-    <div id="login">
-    	<p><a href="setUser.php#">Login </a>   |   <a href="setUser.php#">Sign up</a></p>
-    </div>
-
+    
+   <p id="login">
+    	<a id="loginStyle" href="setUser.php#">Login </a>
+        <a href="setUser.php#">Sign up</a>
+   
+</p>
 <div id="wrapper">
     <header id="top">
-    <a href="view.php" ><img src="logo.jpg" width="195" height="117" alt=""/></a>
+    <a href="index.html" ><img src="logo.jpg" width="195" height="117" alt=""/></a>
+<h1></h1>
 
   <blockquote><strong><em>"Behold, God is my salvation; I will trust, and not be afraid; for the Lord Jehovah 
   is my strength and my song; he also has become my salvation".(2 Nephi 22:2)</em></strong>
@@ -23,7 +26,7 @@
         
       <nav id="mainnav">
             <ul style="list-style-type:none; margin:0px;padding:0px">
-                <li><a href="../index.html"  >Home</a></li>
+                <li><a href="index.html"  >Home</a></li>
                 <li><a href="nutrition" >Sports Nutrition</a></li>           
                 <li><a href="assignments.html" >Assignments</a></li>
                 <li><a href="tips.html" >Tips</a></li>
@@ -41,9 +44,15 @@
     <br />
    
 	<?php echo $output; ?>
+    
+  <div></div>
+</div>
+  
+  
 </div>
 </body>
 </html>
+
 
 
 	

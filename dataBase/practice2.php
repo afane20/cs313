@@ -18,7 +18,7 @@ function databaseConnection(){
             return FALSE;
         }
 }
-function getScriptures(){
+function getItems(){
 $conn = databaseConnection();
     
     try{
@@ -30,7 +30,7 @@ $conn = databaseConnection();
         $stmt->closeCursor();
             
     } catch (PDOException $ex) {
-        echo 'getScriptures error';
+        echo 'getItems error';
     }
         if(is_array($data)){
             return $data;
@@ -39,7 +39,7 @@ $conn = databaseConnection();
             return FALSE;
         }
 }
-function getSpecificScriptures($searchVariable){
+function searchItems($searchVariable){
 $conn = databaseConnection();
     
     try{
@@ -52,7 +52,7 @@ $conn = databaseConnection();
         $stmt->closeCursor();
             
     } catch (PDOException $ex) {
-        echo 'getScriptures error';
+        echo 'searchItems error';
     }
         if(is_array($data)){
             return $data;

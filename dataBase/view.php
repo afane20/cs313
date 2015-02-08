@@ -15,8 +15,7 @@
 
 <div id="wrapper">
     <header id="top">
-    <a href="index.html" ><img src="logo.jpg" width="195" height="117" alt=""/></a>
-<h1></h1>
+    <a href="view.php" ><img src="logo.jpg" width="195" height="117" alt=""/></a>
 
   <blockquote><strong><em>"Behold, God is my salvation; I will trust, and not be afraid; for the Lord Jehovah 
   is my strength and my song; he also has become my salvation".(2 Nephi 22:2)</em></strong>
@@ -26,7 +25,7 @@
         
       <nav id="mainnav">
             <ul style="list-style-type:none; margin:0px;padding:0px">
-                <li><a href="index.html"  >Home</a></li>
+                <li><a href="../index.html"  >Home</a></li>
                 <li><a href="nutrition" >Sports Nutrition</a></li>           
                 <li><a href="assignments.html" >Assignments</a></li>
                 <li><a href="tips.html" >Tips</a></li>

@@ -5,9 +5,9 @@ if(!$_SESSION){
 require $_SERVER['DOCUMENT_ROOT'].'/dataBase/practice2.php';
 if ($_POST['action'] == "Search" && !empty($_POST['search'])){
 	$searchVariable = $_POST['search'];
-	$scriptures = getSpecificScriptures($searchVariable);
-	$output = "<h1>Scripture Resources</h1>";
-	foreach ($scriptures as $value) {
+	$product = getItems($searchVariable);
+	$output = "<h1>Item(s) avaliable</h1>";
+	foreach ($product as $value) {
 		$output .= "<b>$value[1] $value[2]:$value[3]</b> - <br /><br />";
 	}
 	include "view.php";
@@ -17,7 +17,7 @@ else {
 	$scriptures = getScriptures();
 	$output = "<h1>Scripture Resources</h1>";
 	foreach ($scriptures as $value) {
-		$output .= "<b>$value[1] $value[2]:$value[3]</b> - <br /><br />";
+		$output .= "<b>Name: $value[1], Price:  $value[2], items avaliable: $value[3]</b> - <br /><br />";
 	}
 	include "view.php";
 	exit;

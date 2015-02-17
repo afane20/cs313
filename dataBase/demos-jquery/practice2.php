@@ -2,8 +2,8 @@
 function databaseConnection(){
         $server = '127.7.209.2';
 		//$server = 'localhost';
-        $username = 'adminYTmqMGH';
-        $passwd = 'DfQI2r6cgdTI';
+        $username = 'afane';
+        $passwd = 'rareriroru';
         $database = 'fitness';
         $dsn = "mysql:host=$server; dbname=$database";
         try{

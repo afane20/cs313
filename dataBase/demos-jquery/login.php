@@ -50,7 +50,7 @@ echo "<a href='logout.php'>Logout</a>";
 		echo $msg;
 	}
  ?>
-<h1>Login</h1>
+<h3>Login</h3>
 <form action="" method="POST">
     <p><label>User Name : </label>
 	<input id="username" type="text" name="username" placeholder="username" /></p>

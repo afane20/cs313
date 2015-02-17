@@ -1,9 +1,9 @@
 <?php
 function databaseConnection(){
-        //$server = '127.7.209.2';
-		$server = 'localhost';
-        $username = 'root';
-        $passwd = 'root';
+        $server = '127.7.209.2';
+	//	$server = 'localhost';
+        $username = 'afane';
+        $passwd = 'rareriroru';
         $database = 'fitness';
         $dsn = "mysql:host=$server; dbname=$database";
         try{

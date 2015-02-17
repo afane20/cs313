@@ -4,7 +4,6 @@
 <meta charset="utf-8">
   <title>DataBase</title>
   <link rel="stylesheet" type="text/css" href="../index.css" />
-  <link href="./background/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>

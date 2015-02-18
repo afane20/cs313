@@ -29,7 +29,7 @@ if (isset($_SESSION['username'])){
 $username = $_SESSION['username'];
 echo "Hi " . $username . " ";
 echo "Welcome Back!";
-echo "<a href='logout.php'>link to home page!</a>";
+echo "<a href='logout.php/?action=logout'>Logout</a>";
  
 } 
 

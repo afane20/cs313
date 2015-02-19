@@ -27,6 +27,8 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+
+<a href="view.php" >Home</a>
     <!-- Form for logging in the users -->
 <div class="register-form">
 <?php

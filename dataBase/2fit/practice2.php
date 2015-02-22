@@ -1,15 +1,15 @@
 <?php
 function databaseConnection(){
-       // $server = '127.7.209.2';
-		  $server = 'localhost';
+        $server = '127.7.209.2';
+	//	  $server = 'localhost';
 		  
-       // $username = 'afane';
-		  $username = 'root';
+        $username = 'afane';
+		//  $username = 'root';
 
-       //$passwd = 'rareriroru';
-	    $passwd = 'root';
+       $passwd = 'rareriroru';
+	   // $passwd = 'root';
 		
-        $database = 'fitness';
+        $database = 'Fitness';
         $dsn = "mysql:host=$server; dbname=$database";
         try{
             $dataConn = new PDO($dsn, $username, $passwd); //creates a PDO Object

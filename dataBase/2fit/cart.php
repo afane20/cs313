@@ -8,10 +8,10 @@ if (!isset($_SESSION["username"])){
 <html>
 <head>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "fitness";
+$servername = "127.7.209.2";
+$username = "afane";
+$password = "rareriroru";
+$dbname = "Fitness";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

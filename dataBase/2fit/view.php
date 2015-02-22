@@ -82,7 +82,7 @@ If you're worried that lifting heavy will make you manly, feel free to put those
 
 Now that your worries have been address and dismissed, you're ready to start on the muscle-building path. First things first—you need a good plan of attack and a great mentor to help get your started. IFBB Figure pro Jessie Hilgenberg is here to show you the way, using concepts she incorporates herself into her very own Jessie's Girls Muscle Building program, which can be found at Jessiefitness.com. <br><br></p>
 
-   <img src="../../../images/jessie.jpg" width="560" height="305" alt=""/>
+   <img src="images/jessie.jpg" width="560" height="305" alt=""/>
 <br><br>
 <h2>1.  Put A Plan In Place </h2>
 <p>You wouldn't head out on a road trip without a map, so don't try to achieve your goals without a guide either. "You can't build your physique by mindlessly wandering around in the gym, choosing machines that are empty, or by simply showing up whenever you feel like it," Jessie explains. "You must have a schedule and plan for your workouts and make them a priority." <br><br>
@@ -99,7 +99,7 @@ Check out your schedule and see if you can carve out 45-60 minutes 4-5 times a w
 Jessie also recommends taking starting and progress photos. While you might be reluctant to photograph yourself at the start, having a physical reminder of where you began can be a powerful catalyst for change. Taking photos on a biweekly basis will allow you to see changes that might be hard to spot in the mirror. "Doing this will help you see the transformations in your physique when you don't really feel like you're progressing," Jessie adds.<br><br>
 </p>
 
-   <img src="../../../images/jessie1.jpg" width="239" height="294" alt=""/>
+   <img src="images/jessie1.jpg" width="239" height="294" alt=""/>
 <div>
 <h2>Sample products</h2><h3>
     <?php

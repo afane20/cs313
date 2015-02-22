@@ -104,9 +104,9 @@ Jessie also recommends taking starting and progress photos. While you might be r
 <h2>Sample products</h2><h3>
     <?php
 $servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "fitness";
+$username = "afane";
+$password = "rareriroru";
+$dbname = "Fitness";
 $counter = 1;
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
@@ -118,7 +118,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-		if ($counter < 3){
+		if ($counter < 5){
 		?>
         <table><tr><td><br/>
       <img src="<?php echo $row["image"]; ?>" alt="No image" width="128" height="128"></td><td>

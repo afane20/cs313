@@ -100,11 +100,11 @@ if (isset($_POST['button'])){
 
       <nav id="mainnav" style="">
             <ul style="list-style-type:none; margin:0px;padding:0px">
-                <li><a href="../../index.html"  >Home CS313</a></li>
+                <li><a href="index.html"  >Home CS313</a></li>
                 <li><a href="nutrition.php" >Sports Nutrition</a></li>           
                 <li><a href="tips.html" >Tips</a></li>
                 <li><a href="cart.php" >Cart</a></li>
-                <li><a href="assignments.html" >Assignments</a></li>
+                <li><a href="../../assignments.html" >Assignments</a></li>
 
             </ul>
       </nav>

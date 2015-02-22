@@ -51,7 +51,7 @@ if (!isset($_SESSION["username"])){
                 <li><a href="nutrition.php" >Sports Nutrition</a></li>           
                 <li><a href="tips.php" >Tips</a></li>
                 <li><a href="cart.php" >Cart</a></li>
-                <li><a href="assignments.html" >Assignments</a></li>
+                <li><a href="../../assignments.html" >Assignments</a></li>
 
             </ul>
       </nav>

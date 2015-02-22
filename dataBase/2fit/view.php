@@ -103,7 +103,7 @@ Jessie also recommends taking starting and progress photos. While you might be r
 <div>
 <h2>Sample products</h2><h3>
     <?php
-$servername = "localhost";
+$servername = "127.7.209.2";
 $username = "afane";
 $password = "rareriroru";
 $dbname = "Fitness";

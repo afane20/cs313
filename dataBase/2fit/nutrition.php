@@ -73,10 +73,10 @@ if (!isset($_SESSION["username"])){
     
   <div></div>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "fitness";
+$servername = "127.7.209.2";
+$username = "afane";
+$password = "rareriroru";
+$dbname = "Fitness";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

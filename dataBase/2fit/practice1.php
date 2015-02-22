@@ -1,9 +1,15 @@
 <?php
 function databaseConnection(){
-        $server = '127.7.209.2';
-        $username = 'afane';
-        $passwd = 'rareriroru';
-        $database = 'php';
+       // $server = '127.7.209.2';
+		  $server = 'localhost';
+		  
+       // $username = 'afane';
+		  $username = 'root';
+
+       //$passwd = 'rareriroru';
+	    $passwd = 'root';
+		
+        $database = 'fitness';
         $dsn = "mysql:host=$server; dbname=$database";
         try{
             $dataConn = new PDO($dsn, $username, $passwd); //creates a PDO Object
@@ -18,7 +24,7 @@ function databaseConnection(){
             return FALSE;
         }
 }
-function getScriptures(){
+function getItems(){
 $conn = databaseConnection();
     
     try{
@@ -30,7 +36,7 @@ $conn = databaseConnection();
         $stmt->closeCursor();
             
     } catch (PDOException $ex) {
-        echo 'getScriptures error';
+        echo 'getItems error';
     }
         if(is_array($data)){
             return $data;
@@ -39,20 +45,20 @@ $conn = databaseConnection();
             return FALSE;
         }
 }
-function getSpecificScriptures($searchVariable){
+function searchItems($searchVariable){
 $conn = databaseConnection();
     
     try{
-        $sql = 'SELECT * FROM products WHERE name = :name';
+        $sql = 'SELECT * FROM products WHERE name LIKE :name';
         
         $stmt = $conn->prepare($sql);
-        $stmt->bindValue(':name', $searchVariable, PDO::PARAM_STR);
+        $stmt->bindValue(':name', '%'. $searchVariable . '%', PDO::PARAM_STR);
         $stmt->execute();
         $data = $stmt->fetchAll();
         $stmt->closeCursor();
             
     } catch (PDOException $ex) {
-        echo 'getScriptures error';
+        echo 'searchItems error';
     }
         if(is_array($data)){
             return $data;

@@ -1,5 +1,5 @@
 <?php
-$connection = mysql_connect('127.11.59.130 ', 'afane', 'rareriroru');
+$connection = mysql_connect('127.11.59.130', 'afane', 'rareriroru');
 if (!$connection){
     die("Database Connection Failed" . mysql_error());
 }

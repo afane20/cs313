@@ -103,10 +103,10 @@ Jessie also recommends taking starting and progress photos. While you might be r
 <div>
 <h2>Sample products</h2><h3>
     <?php
-$servername = "127.11.59.130";
+$servername = "127.3.147.2";
 $username = "afane";
 $password = "rareriroru";
-$dbname = "2Fit";
+$dbname = "2fitness";
 $counter = 1;
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {

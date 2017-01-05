@@ -9,7 +9,7 @@ function databaseConnection(){
        $passwd = 'rareriroru';
 	    //$passwd = 'root';
 		
-        $database = 'Fitness';
+        $database = '2fitness';
         $dsn = "mysql:host=$server; dbname=$database";
         try{
             $dataConn = new PDO($dsn, $username, $passwd); //creates a PDO Object

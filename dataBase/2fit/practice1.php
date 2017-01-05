@@ -1,6 +1,6 @@
 <?php
 function databaseConnection(){
-        $server = '127.7.209.2';
+        $server = '127.3.147.2';
 		 // $server = 'localhost';
 		  
         $username = 'afane';
